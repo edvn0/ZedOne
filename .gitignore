@@ -1,0 +1,14 @@
+build
+build-*
+release
+.cache
+temp
+out
+compile_commands.json
+.vs
+
+# We only want .shd for shaders.
+*.spv
+*.frag
+*.vert
+*.comp
